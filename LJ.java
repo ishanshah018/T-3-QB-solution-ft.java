@@ -1,3 +1,4 @@
+//QB 492
 class LJ
 {
 	public static void main(String args[])
