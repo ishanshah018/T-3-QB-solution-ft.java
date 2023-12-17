@@ -1,0 +1,28 @@
+//with arg with ret area and peri of rectangle
+import java.util.*;
+class Ex19
+{
+	public static void main(String args[])
+	{
+		Ex19 ab = new Ex19();
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter length");
+		int l = sc.nextInt();
+		System.out.print("Enter breadth");
+		int b = sc.nextInt();
+		int ans=ab.sum(l,b);											
+		System.out.println("Area is"+ans);
+		int ans1=ab.sum1(l,b);
+		System.out.println("Perimeter is"+ans1);
+	}
+	int sum(int a,int c)
+	{
+		int area=a*c;
+		return area;
+	}														
+	int sum1(int a,int c)
+	{
+		int peri=2*(a+c);
+		return peri;
+	}
+}					
