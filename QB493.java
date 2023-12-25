@@ -1,9 +1,9 @@
 //QB 493
-class circle
+class QB493
 {
 	public static void main(String args[])
 	{
-		circle ab = new circle();
+		circle QB493 = new QB493();
 		ab.input();
 	}
 	void input()
