@@ -1,9 +1,9 @@
 //QB 492
-class LJ
+class QB492
 {
 	public static void main(String args[])
 	{
-		LJ ab = new LJ();
+		LJ QB492 = new QB492();
 		ab.print();
 	}
 	void print()
