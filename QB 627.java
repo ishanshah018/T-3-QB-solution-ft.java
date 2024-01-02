@@ -4,11 +4,11 @@ class Ex1 {
     public static void main(String args[]) {
         int arr[] = { 1, 2, 5, 6, 3, 2 };
         Ex1 ab = new Ex1();
-        ab.oddprint(arr);
-        ab.evenprint(arr);
+        ab.odd(arr);
+        ab.even(arr);
     }
 
-    void oddprint(int arr[]) {
+    void odd(int arr[]) {
         System.out.println("Odd Numbers:");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
@@ -17,7 +17,7 @@ class Ex1 {
         }
     }
 
-    void evenprint(int arr[]) {
+    void even(int arr[]) {
         System.out.println("Even Numbers:");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
